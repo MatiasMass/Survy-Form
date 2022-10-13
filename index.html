@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Survey Form</h1>
+    <div class="container">
+        <p>Let us know how we can improve freeCodeCamp</p>
+        <form action="">
+            <table class="table">
+                <tr>
+                    <td class="right"><label for="">*Name:</label></td>
+                     <td class="left"> <input type="text" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td class="right"><label for="">*Email:</label></td>
+                     <td class="left"><input type="email" placeholder="Enter your Email"></td>
+                </tr>
+                <tr>
+                    <td class="right"><label for="">*Age:</label></td>
+                     <td class="left"><input type="number" placeholder="Age"></td>
+                </tr>
+                <tr>
+                    <td class="right"><label for="">Which option best describes your current role?</label></td>
+                     <td class="left">                
+                        <select name="" id="">
+                            <option value="Student">Proffessor</option>
+                            <option value="Student">No-Proffessor</option>
+                            <option value="Student">Student</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td class="right">
+                        <label for="">
+                            How likely is that you would recommend
+                        </label>
+                        <br>
+                        <label for="">
+                            freeCodeCamp to a friend
+                        </label>
+                    </td>
+                     <td class="left">                    
+                        <input type="radio" id="definitely" name="recommendations" value="Definitely">
+                        <label for="definitely">Definitely</label><br>         
+                        <input type="radio" id="maybe" name="recommendations" value="maybe">
+                        <label for="maybe">Maybe</label><br>          
+                        <input type="radio" id="not-sure" name="recommendations" value="not-sure">
+                        <label for="not-sure">Not sure</label><br>  </td>
+                </tr>
+                <tr>
+                    <td class="right"><label for="">Which option best describes your current role?</label></td>
+                     <td class="left">                
+                        <select name="" id="">
+                            <option value="Student">Proffessor</option>
+                            <option value="Student">No-Proffessor</option>
+                            <option value="Student">Select an option</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right">
+                        <label>This that should be improved in the future</label>
+                        <br>
+                        <label>(Check all that apply)</label>
+                    </td>
+                     <td class="left">
+                        <input type="checkbox" id="option1" name="option1" value="frontend">
+                        <label for="option1"> Front-end Projects</label><br>
+                        <input type="checkbox" id="option2" name="option2" value="backend">
+                        <label for="option2"> Back-end Projects</label><br>
+                        <input type="checkbox" id="option3" name="option3" value="data">
+                        <label for="option3"> Data Visualization</label>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+</body>
+</html>
